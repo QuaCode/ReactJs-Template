@@ -1,8 +1,8 @@
 import React from 'react'
-import './style.scss'
+import { Counter } from './Counter'
 
 const App = () => {
- return <h1 className='title'>App</h1>
+ return <Counter />
 }
 
 export default App
